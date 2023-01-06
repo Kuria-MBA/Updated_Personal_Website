@@ -67,22 +67,47 @@ ul {
     font-family: "Perpetua","Baskerville","Big Caslon,Palatino Linotype","Palatino","URW Palladio L","Nimbus Roman No9 L",serif; 
     font-size:2.5vw;
     text-decoration: underline;
+    text-align: center;
 }
+
 table{
     width: 100%;
     margin-left: auto; 
     margin-right: auto;
+    
 }
 .table_para{
     font-family: "Perpetua","Baskerville","Big Caslon,Palatino Linotype","Palatino","URW Palladio L","Nimbus Roman No9 L",serif; 
     font-size:2.1vw;
-    text-align: left;
+    text-align: center;
+    border: 5px solid;
+    height: 200px;
 }
 .table_para:hover{
     font-family: "Perpetua","Baskerville","Big Caslon,Palatino Linotype","Palatino","URW Palladio L","Nimbus Roman No9 L",serif; 
     text-decoration: underline;
     opacity: 90%;
+    background-color:blanchedalmond;
+    text-align: left
 }
+
+.contact
+{
+  background-color:#555555;
+  height: 200px;
+  width: 100%;
+}
+.contact_header{
+  font-family: "Perpetua","Baskerville","Big Caslon,Palatino Linotype","Palatino","URW Palladio L","Nimbus Roman No9 L",serif; 
+  font-size:2.5vw;
+  text-align: center;
+}
+.contact_text{
+  font-family: "Perpetua","Baskerville","Big Caslon,Palatino Linotype","Palatino","URW Palladio L","Nimbus Roman No9 L",serif; 
+  font-size:2.1vw;
+  text-align: center;
+}
+
 a:visited { 
     text-decoration: none; 
     color: black;
@@ -92,6 +117,14 @@ a{
     color: black;
    }
 
+
+
+
+
+
+
+
+   
 
 :root {
     --primColor: #dcdcdc;
